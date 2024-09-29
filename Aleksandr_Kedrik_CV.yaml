@@ -1,0 +1,110 @@
+cv:
+  name: Aleksandr Kedrik
+  email: alexander.kedrik@gmail.com
+  social_networks:
+    # - network: LinkedIn
+      # username: yourusername
+    - network: GitHub
+      username: alkedr
+  sections:
+    experience:
+      - company: Yandex, YandexGPT training infrastructure
+        position: Senior Software Engineer
+        start_date: 2024-04
+        highlights:
+          - Worked on YandexGPT training speed and reliability.
+          - Sped up model checkpoint uploading during training 2x.
+          - Wrote a tool for benchmarking different methods of checkpoint uploading.
+      
+      - company: Yandex, SportTechCV infrastructure
+        position: Senior Software Engineer
+        start_date: 2023-09
+        end_date: 2024-04
+        highlights:
+          - Designed and implemented a real-time video processing pipeline for tracking player movements on a football field. Python, PostgreSQL, a message queue similar to Kafka, FFmpeg.
+          - Was only responsible for real-time processing infrastructure and used CV algorithms developed by another team as a black box.
+          - Wrote a tool for visualizing the progress of each video chunk in real time.
+
+      - company: Yandex, VR and 3D reconstruction infrastructure
+        position: Senior Software Engineer
+        start_date: 2022-11
+        end_date: 2023-09
+        highlights:
+          - Sped up video 3D reconstruction pipeline 4x by finding and fixing infrastructural issues and profiling with Torch profiler.
+          - Researched and tested alternatives to differentiable 3D-renderer that we were using. Nvdiffrast, Mitsuba 3, Pytorch3d.
+          - Wrote a tool for converting reconstructed animated 3D model back into video for easy viewing.
+      
+      - company: Yandex, Self-driving cars simulator testing infrastructure
+        position: Software Engineer
+        start_date: 2020-05
+        end_date: 2022-11
+        highlights:
+          - Designed and implemented a task queue service for launching simulator tests that could scale to thousands of workers. Python, PostgreSQL.
+          - Designed, prototyped and helped implement an inference server cluster that could handle to >12k RPS and tens of GBit/s of incoming traffic, and could skale the number of its instances based on current load. Python, C++, Nvidia Triton Inference Server.
+      
+      - company: Yandex, Yandex.Market infrastructure
+        position: Software Engineer
+        start_date: 2017-06
+        end_date: 2020-05
+        highlights:
+          - Worked on a service that parses logs from different backends and turns them into time-series data. Java, MongoDB, ClickHouse, Graphite, a message queue similar to Kafka.
+          - Worked on a CI/CD web service. Java, MongoDB.
+      
+      - company: Yandex, Yandex.Market
+        position: Test Automation Engineer
+        start_date: 2013-08
+        end_date: 2017-06
+    # education:
+    #   - institution: University of Pennsylvania
+    #     area: Computer Science
+    #     degree: BS
+    #     start_date: 2000-09
+    #     end_date: 2005-05
+    #     highlights:
+    #       - 'GPA: 3.9/4.0 ([a link to somewhere](https://example.com))'
+    #       - '**Coursework:** Computer Architecture, Comparison
+    #         of Learning Algorithms, Computational Theory'
+    # technologies:
+    #   - label: Languages
+    #     details: C++, C, Java, Objective-C, C#, SQL, JavaScript
+    #   - label: Technologies
+    #     details: .NET, Microsoft SQL Server, XCode, Interface
+    #       Builder
+design:
+  theme: classic
+  font: Source Sans 3
+  font_size: 11pt
+  page_size: letterpaper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: true
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 30 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+      education_degree_width: 1 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+  show_timespan_in: []
