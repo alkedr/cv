@@ -1,4 +1,4 @@
-[PDF version](https://github.com/alkedr/cv/blob/main/rendercv_output/Aleksandr_Kedrik_CV.pdf)
+# [PDF version](https://github.com/alkedr/cv/blob/main/rendercv_output/Aleksandr_Kedrik_CV.pdf)
 # Aleksandr Kedrik's CV
 
 - Email: [alexander.kedrik@gmail.com](mailto:alexander.kedrik@gmail.com)
