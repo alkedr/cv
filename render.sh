@@ -4,6 +4,8 @@ set -eux
 
 cd "$(dirname "$0")"
 
+ln -sf ../../git-pre-commit-hook.sh .git/hooks/pre-commit
+
 if ! command -v python3.12
 then
 	sudo apt-get update
