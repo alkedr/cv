@@ -18,13 +18,13 @@
 
 - Sept 2023 – Apr 2024
 - Designed and implemented a real-time video processing pipeline for tracking player movements on a football field. Was responsible for real-time processing infrastructure and used CV algorithms developed by another team as a black box. Python, PostgreSQL, a message queue similar to Kafka, FFmpeg.
-- Wrote a tool for visualizing the progress of each video chunk in real time.
+- Wrote a tool for visualizing the progress of each video chunk in real-time.
 
 ## Yandex, VR and 3D reconstruction infrastructure, Senior Software Engineer
 
 - Nov 2022 – Sept 2023
 - Sped up video 3D reconstruction pipeline 4x by finding and fixing infrastructural issues and profiling with Torch profiler.
-- Researched and tested alternatives to differentiable 3D-renderer that we were using. Nvdiffrast, Mitsuba 3, Pytorch3d.
+- Researched and tested alternatives to the differentiable 3D-renderer that we used. Nvdiffrast, Mitsuba 3, Pytorch3d.
 - Wrote a tool for converting reconstructed animated 3D model back into video for easy viewing.
 
 ## Yandex, Self-driving cars simulator testing infrastructure, Software Engineer
@@ -45,7 +45,7 @@
 
 # Education
 
-## Saint-Petersburg National Research University of Information Technologies, Mechanics and Optics, BS in Computer Science
+## Saint-Petersburg National Research University of Information Technologies, Mechanics and Optics (ITMO), BS in Computer Science
 
 - Sept 2011 – June 2015
 
