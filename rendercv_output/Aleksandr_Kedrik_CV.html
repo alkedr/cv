@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        Aleksandr Kedrik's CV
+    </title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-light.min.css"
+        integrity="sha512-Pmhg2i/F7+5+7SsdoUqKeH7UAZoVMYb1sxGOoJ0jWXAEHP0XV2H4CITyK267eHWp2jpj7rtqWNkmEOw1tNyYpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+        }
+
+        @media (max-width: 767px) {
+            .markdown-body {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <article class="markdown-body">
+        <h1>Aleksandr Kedrik's CV</h1>
+        <ul>
+        <li>Email: <a href="mailto:alexander.kedrik@gmail.com">alexander.kedrik@gmail.com</a></li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/aleksandr-kedrik">aleksandr-kedrik</a></li>
+        <li>GitHub: <a href="https://github.com/alkedr">alkedr</a></li>
+        </ul>
+        <h1>Experience</h1>
+        <h2>Yandex, YandexGPT training infrastructure, Senior Software Engineer</h2>
+        <ul>
+        <li>Apr 2024 – present</li>
+        <li>Sped up model checkpoint uploading during training 2x to make it possible to make checkpoints more often and lose less progress after hardware failures.</li>
+        <li>Wrote a tool for benchmarking different methods of checkpoint uploading.</li>
+        </ul>
+        <h2>Yandex, SportTechCV infrastructure, Senior Software Engineer</h2>
+        <ul>
+        <li>Sept 2023 – Apr 2024</li>
+        <li>Designed and implemented a real-time video processing pipeline for tracking player movements on a football field. Was responsible for real-time processing infrastructure and used CV algorithms developed by another team as a black box. Python, PostgreSQL, a message queue similar to Kafka, FFmpeg.</li>
+        <li>Wrote a tool for visualizing the progress of each video chunk in real time.</li>
+        </ul>
+        <h2>Yandex, VR and 3D reconstruction infrastructure, Senior Software Engineer</h2>
+        <ul>
+        <li>Nov 2022 – Sept 2023</li>
+        <li>Sped up video 3D reconstruction pipeline 4x by finding and fixing infrastructural issues and profiling with Torch profiler.</li>
+        <li>Researched and tested alternatives to differentiable 3D-renderer that we were using. Nvdiffrast, Mitsuba 3, Pytorch3d.</li>
+        <li>Wrote a tool for converting reconstructed animated 3D model back into video for easy viewing.</li>
+        </ul>
+        <h2>Yandex, Self-driving cars simulator testing infrastructure, Software Engineer</h2>
+        <ul>
+        <li>May 2020 – Nov 2022</li>
+        <li>Designed and implemented a task queue service for launching simulator tests that could scale to thousands of workers. Python, PostgreSQL.</li>
+        <li>Designed, prototyped and helped implement an inference server cluster that could handle to &gt;12k RPS and tens of GBit/s of incoming traffic, and could scale the number of its instances based on current load. Python, C++, Nvidia Triton Inference Server.</li>
+        </ul>
+        <h2>Yandex, Yandex.Market infrastructure, Software Engineer</h2>
+        <ul>
+        <li>June 2017 – May 2020</li>
+        <li>Worked on a service that parses logs from different backends and turns them into time-series data. Java, MongoDB, ClickHouse, Graphite, a message queue similar to Kafka.</li>
+        <li>Worked on a CI/CD web service. Java, MongoDB.</li>
+        </ul>
+        <h2>Yandex, Yandex.Market, Test Automation Engineer</h2>
+        <ul>
+        <li>Aug 2013 – June 2017</li>
+        </ul>
+        <h1>Education</h1>
+        <h2>Saint-Petersburg National Research University of Information Technologies, Mechanics and Optics, BS in Computer Science</h2>
+        <ul>
+        <li>Sept 2011 – June 2015</li>
+        </ul>
+    </article>
+</body>
+
+</html>

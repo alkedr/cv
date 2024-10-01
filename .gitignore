@@ -1,0 +1,5 @@
+venv/
+rendercv_output/__pycache__
+rendercv_output/*.log
+rendercv_output/*.aux
+rendercv_output/*.png
