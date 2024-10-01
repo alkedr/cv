@@ -23,14 +23,14 @@
 
 - Nov 2022 – Sept 2023
 - Sped up video 3D reconstruction pipeline 4x by finding and fixing infrastructural issues and profiling with Torch profiler.
-- Researched and tested alternatives to the differentiable 3D-renderer that we used. Nvdiffrast, Mitsuba 3, Pytorch3d.
+- Researched and tested alternatives to the differentiable 3D-renderer that we were using. Nvdiffrast, Mitsuba 3, Pytorch3d.
 - Wrote a tool for converting reconstructed animated 3D model back into video for easy viewing.
 
 ## Yandex, Self-driving cars simulator testing infrastructure, Software Engineer
 
 - May 2020 – Nov 2022
 - Designed and implemented a task queue service for launching simulator tests that could scale to thousands of workers. Python, PostgreSQL.
-- Designed, prototyped and helped implement an inference server cluster that could handle to >12k RPS and tens of GBit/s of incoming traffic, and could scale the number of its instances based on current load. Python, C++, Nvidia Triton Inference Server.
+- Designed, prototyped, and helped implement an inference server cluster that could handle to >12k RPS and tens of GBit/s of incoming traffic, and could scale the number of its instances based on the current load. Python, C++, Nvidia Triton Inference Server.
 
 ## Yandex, Yandex.Market infrastructure, Software Engineer
 
