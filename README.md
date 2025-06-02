@@ -11,6 +11,10 @@
 - TL;DR: An experienced software engineer looking to transition from working on LLM training infrastructure to AGI safety research.
 # Experience
 
+## None, None
+
+- Replicated a part of the "Alignment Faking in LLMs" paper and published a [LessWrong post about it](https://www.lesswrong.com/posts/pCMmLiBcHbKohQgwA)
+
 ## Yandex, YandexGPT training infrastructure, Senior Software Engineer
 
 - Apr 2024 – present

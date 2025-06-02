@@ -23,7 +23,7 @@ fi
 
 if ! command -v rendercv
 then
-	pip3 install rendercv
+	pip3 install rendercv[full]
 fi
 
 rendercv render Aleksandr_Kedrik_CV.yaml
