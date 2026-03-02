@@ -1,24 +1,29 @@
 cv:
-  name: Aleksandr Kedrik
+  name: Alex Kedryk
   email: alexander.kedrik@gmail.com
   social_networks:
     - network: LinkedIn
-      username: aleksandr-kedrik
+      username: alex-kedryk
     - network: GitHub
       username: alkedr
   sections:
     # Concerned about existential risks from AI, looking for ways to make a positive impact.
     _:
       - label: TL;DR
-        details: An experienced software engineer looking to transition from working on LLM training infrastructure to AGI safety research.
+        details: An experienced software engineer looking for ways to make a positive impact on AI safety.
+    publications:
+      - bullet: 'Replicated a part of the "Alignment Faking in LLMs" paper and published a [LessWrong post about it](https://www.lesswrong.com/posts/pCMmLiBcHbKohQgwA).'
     experience:
-      - company: None
-        position: None
+      - company: Apollo Research
+        position: Software Engineer
+        start_date: 2025-09
         highlights:
-          - 'Replicated a part of the "Alignment Faking in LLMs" paper and published a [LessWrong post about it](https://www.lesswrong.com/posts/pCMmLiBcHbKohQgwA)'
+          - Built or significantly improved several internal tools for running LLM evals.
+
       - company: Yandex, YandexGPT training infrastructure
         position: Senior Software Engineer
         start_date: 2024-04
+        end_date: 2025-08
         highlights:
           - Sped up model checkpoint uploading during training 2x to make it possible to make checkpoints more often and lose less progress after failures.
           - Wrote a tool for benchmarking different methods of checkpoint uploading.
@@ -46,7 +51,7 @@ cv:
         end_date: 2022-11
         highlights:
           - Designed and implemented a task queue service for launching simulator tests that could scale to thousands of workers. Python, PostgreSQL.
-          - Designed, prototyped, and helped implement an inference server cluster that could handle to >12k RPS and tens of GBit/s of incoming traffic. Python, C++, Nvidia Triton Inference Server.
+          - Designed, prototyped, and helped implement an inference server cluster that could handle over 12k RPS and tens of GBit/s of incoming traffic. Python, C++, Nvidia Triton Inference Server.
 
       - company: Yandex, Yandex.Market infrastructure
         position: Software Engineer

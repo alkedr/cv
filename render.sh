@@ -6,17 +6,14 @@ cd "$(dirname "$0")"
 
 ln -sf ../../git-pre-commit-hook.sh .git/hooks/pre-commit
 
-if ! command -v python3.12
+if ! command -v python3.14
 then
-	sudo apt-get update
-	sudo apt-get install -y software-properties-common
-	sudo add-apt-repository -y ppa:deadsnakes/ppa
-	sudo apt-get install -y python3.12 python3.12-venv
+	brew install python@3.14
 fi
 
 if [ ! -d venv ]
 then
-	python3.12 -m venv venv
+	python3.14 -m venv venv
 fi
 
 . venv/bin/activate
@@ -26,4 +23,4 @@ then
 	pip3 install rendercv[full]
 fi
 
-rendercv render Aleksandr_Kedrik_CV.yaml
+rendercv render Alex_Kedryk_CV.yaml

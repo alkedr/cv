@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        
+    </title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-light.min.css"
+        integrity="sha512-Pmhg2i/F7+5+7SsdoUqKeH7UAZoVMYb1sxGOoJ0jWXAEHP0XV2H4CITyK267eHWp2jpj7rtqWNkmEOw1tNyYpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.css" integrity="sha384-PDbUeNCuE6bOPudPOgFyIUEy3UJawJVwr3XlGO90FIuf5qNIoTLSgOJo/dC2ZXV/" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.js" integrity="sha384-VkqWq8xtm5YQk1BBXczQ8/Sx+DlCzF8cuS43bZwmtVXzRFtyLTqTCdP7MKmKo+KN" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+        onload="renderMathInElement(document.body, {delimiters: [{ left: '$$',  right: '$$',  display: false }]});"></script>
+    <style>
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+        }
+
+        @media (max-width: 767px) {
+            .markdown-body {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <article class="markdown-body">
+        <h1>Alex Kedryk's CV</h1>
+        <ul>
+        <li>Email: <a href="mailto:alexander.kedrik@gmail.com">alexander.kedrik@gmail.com</a></li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/alex-kedryk">alex-kedryk</a></li>
+        <li>GitHub: <a href="https://github.com/alkedr">alkedr</a></li>
+        </ul>
+        <h1></h1>
+        <p><strong>TL;DR:</strong> An experienced software engineer looking for ways to make a positive impact on AI safety.</p>
+        <h1>Publications</h1>
+        <ul>
+        <li>Replicated a part of the "Alignment Faking in LLMs" paper and published a <a href="https://www.lesswrong.com/posts/pCMmLiBcHbKohQgwA">LessWrong post about it</a>.</li>
+        </ul>
+        <h1>Experience</h1>
+        <h2><strong>Apollo Research</strong>, Software Engineer</h2>
+        <p>Sept 2025 – present</p>
+        <p>7 months</p>
+        <ul>
+        <li>Built or significantly improved several internal tools for running LLM evals.</li>
+        </ul>
+        <h2><strong>Yandex, YandexGPT training infrastructure</strong>, Senior Software Engineer</h2>
+        <p>Apr 2024 – Aug 2025</p>
+        <p>1 year 5 months</p>
+        <ul>
+        <li>
+        <p>Sped up model checkpoint uploading during training 2x to make it possible to make checkpoints more often and lose less progress after failures.</p>
+        </li>
+        <li>
+        <p>Wrote a tool for benchmarking different methods of checkpoint uploading.</p>
+        </li>
+        </ul>
+        <h2><strong>Yandex, SportTechCV infrastructure</strong>, Senior Software Engineer</h2>
+        <p>Sept 2023 – Apr 2024</p>
+        <p>8 months</p>
+        <ul>
+        <li>
+        <p>Designed and implemented infrastructure for a real-time video processing pipeline for tracking player movements on a football field. Python, PostgreSQL, a message queue similar to Kafka, FFmpeg.</p>
+        </li>
+        <li>
+        <p>Wrote a tool for visualizing the progress of each video chunk in real-time.</p>
+        </li>
+        </ul>
+        <h2><strong>Yandex, VR and 3D reconstruction infrastructure</strong>, Senior Software Engineer</h2>
+        <p>Nov 2022 – Sept 2023</p>
+        <p>11 months</p>
+        <ul>
+        <li>
+        <p>Sped up video 3D reconstruction pipeline 4x by finding and fixing infrastructural issues and profiling with Torch profiler.</p>
+        </li>
+        <li>
+        <p>Researched and tested alternatives to the differentiable 3D-renderer that we were using. Nvdiffrast, Mitsuba 3, Pytorch3d.</p>
+        </li>
+        <li>
+        <p>Wrote a tool for converting reconstructed animated 3D model back into video for easy viewing.</p>
+        </li>
+        </ul>
+        <h2><strong>Yandex, Self-driving cars simulator infrastructure</strong>, Software Engineer</h2>
+        <p>May 2020 – Nov 2022</p>
+        <p>2 years 7 months</p>
+        <ul>
+        <li>
+        <p>Designed and implemented a task queue service for launching simulator tests that could scale to thousands of workers. Python, PostgreSQL.</p>
+        </li>
+        <li>
+        <p>Designed, prototyped, and helped implement an inference server cluster that could handle over 12k RPS and tens of GBit/s of incoming traffic. Python, C++, Nvidia Triton Inference Server.</p>
+        </li>
+        </ul>
+        <h2><strong>Yandex, Yandex.Market infrastructure</strong>, Software Engineer</h2>
+        <p>June 2017 – May 2020</p>
+        <p>3 years</p>
+        <ul>
+        <li>Worked on a CI/CD web service and a log parsing service. Java, MongoDB.</li>
+        </ul>
+        <h2><strong>Yandex, Yandex.Market</strong>, Test Automation Engineer</h2>
+        <p>Aug 2013 – June 2017</p>
+        <p>3 years 11 months</p>
+        <h1>Education</h1>
+        <h2><strong>Saint-Petersburg National Research University of Information Technologies, Mechanics and Optics (ITMO)</strong>, Computer Science</h2>
+        <p><strong>BS</strong></p>
+        <p>Sept 2011 – June 2015</p>
+        <h1></h1>
+        <p><strong>Technologies:</strong> Python, C++, PyTorch, Jupyter, Cursor</p>
+    </article>
+</body>
+
+</html>
